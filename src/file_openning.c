@@ -12,6 +12,5 @@ int	prep_file(char const *filename)
 		write (2, filename, strlen(filename));
 		return (-1);
 	}
-	textyLoop();
 	return (fd);
 }
