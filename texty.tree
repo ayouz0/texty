@@ -1,0 +1,30 @@
+[CORE]
+Basic text input and editing #high @student1
+Cursor movement #high @student2
+Text rendering #high @student1
+Scrolling support #medium @student2
+
+[FILE_IO]
+Open file #high @student1
+Save file #high @student2
+Save As functionality #medium @student1
+Handle unsaved changes prompt @student2
+
+[DISPLAY]
+Status bar with file info #medium @student1
+Line numbers #medium @student2
+Syntax highlighting #low @student2
+
+[NAVIGATION]
+Jump to line #medium @student1
+Page up/down #medium @student2
+Search text #medium @student1
+
+[EDITING_FEATURES]
+Copy/Cut/Paste operations #medium @student2
+Undo/Redo support #medium @student1
+Multi-line select #low @student2
+
+[CONFIG]
+Keybindings config file #low @student1
+Color theme support #low @student2
