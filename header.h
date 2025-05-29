@@ -7,5 +7,5 @@
 
 
 //\//\//\// Ayoub \\//\//\//\//
-int	prep_file(char const *filename);
+int	prep_file(char const *filename, int *fd);
 

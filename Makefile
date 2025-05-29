@@ -2,10 +2,10 @@ NAME = texty
 CC = cc
 CFLAGS = -Wall -Wextra -Werror
 
-SRCS = src/file_openning.c src/main.c
+SRCS = engine/signal_handeling.c engine/textyLoop.c src/file_openning.c src/main.c
 OBJS = $(SRCS:.c=.o)
 
-HEADER = header.h
+HEADER = engine/engine.h header.h
 
 all: $(NAME)
 
